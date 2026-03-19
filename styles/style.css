@@ -192,6 +192,11 @@
     margin-bottom: 6px;
 }
 
+.stars {
+    color: rgba(251, 130, 0, 1);
+    margin-right: 8px;
+}
+
 .card-desc {
     font-size: 14px;
     font-weight: 700;
