@@ -86,6 +86,7 @@
     font-size: 1rem;
     font-weight: 600;
     color: #3A3A3A;
+    line-height: 26px;
     margin-bottom: 16px;
 }
 
@@ -97,6 +98,12 @@
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 700;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #a92052;
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.3);
 }
 
 .hero-right {
