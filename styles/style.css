@@ -283,6 +283,15 @@
     .sponsor img {
         width: calc(25% - 20px);
     }
+
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .btn1 {
+        right: 40px;
+    }
 }
 
 
@@ -292,5 +301,14 @@
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .hero-left {
         max-width: 500px;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .btn1 {
+        right: 40px;
     }
 }
