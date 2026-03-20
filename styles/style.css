@@ -317,6 +317,23 @@
     .btn1 {
         right: 40px;
     }
+
+    .feature-section {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 15px;
+        gap: 50px;
+    }
+
+    .feature-left img {
+        width: 100%;
+        height: auto;
+    }
+
+    .feature-right {
+        text-align: center;
+        order: -1;
+        margin-top: 40px;
+    }
 }
 
 
@@ -335,5 +352,11 @@
 
     .btn1 {
         right: 40px;
+    }
+
+    .feature-section {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 20px;
+        gap: 40px;
     }
 }
