@@ -223,6 +223,10 @@
     right: 0;
 }
 
+.btn1:hover {
+    color: #ba1a54;
+}
+
 /* Feature Section */
 .feature-section {
     margin: 100px auto;
@@ -248,8 +252,34 @@
     margin-bottom: 16px;
 }
 
+/* Footer Styles */
+.footer-container {
+    background-color: #0A0826;
+    padding: 50px;
+    color: #FFFFFF;
+    text-align: center;
+}
 
+.footer-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
 
+.footer-desc {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(217, 219, 225, 1);
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
 
 
 
