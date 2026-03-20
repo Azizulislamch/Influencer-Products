@@ -364,6 +364,22 @@
         order: -1;
         margin-top: 40px;
     }
+
+    .feature-title {
+        font-size: 26px;
+    }
+
+    .feature-desc {
+        font-size: 16px;
+    }
+
+    .footer-title {
+        font-size: 16px;
+    }
+
+    .footer-desc {
+        font-size: 12px;
+    }
 }
 
 
